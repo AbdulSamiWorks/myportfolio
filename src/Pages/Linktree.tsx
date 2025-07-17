@@ -38,7 +38,7 @@ const Linktree: React.FC = () => {
   const links = [
     {
       name: "Personal Website",
-      url: "https://abdulsamiportfolio.netlify.app",
+      url: "https://abdulsamiportfolio.vercel.app/",
       icon: <FaGlobe className="w-6 h-6" />,
       color: "bg-blue-100",
       description: "Check out my portfolio",

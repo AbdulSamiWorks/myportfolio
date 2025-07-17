@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <ul className="bg-[#FEFFF0] flex items-center space-x-6">
             <li>
               <a
-                href="https://abdulsamiportfolio.netlify.app"
+                href="https://abdulsamiportfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-gray-800"
