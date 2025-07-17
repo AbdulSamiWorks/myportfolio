@@ -1,51 +1,109 @@
-# React + TypeScript + Vite
+# Abdul Sami – Portfolio 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**.  
+It highlights my projects, research in AI & Federated Learning, technical skills, events, and achievements.
 
-Currently, two official plugins are available:
+## 📍 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Visit Portfolio](https://your-netlify-link.com) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧠 About Me
 
-- Configure the top-level `parserOptions` property like this:
+I'm **Abdul Sami**, an AI enthusiast and full-stack developer with experience in:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Federated & Decentralized Learning
+- Ocular disease recognition using deep learning
+- Frontend & backend web development
+- Hosting developer meetups & building communities
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Build Tool**: Vite
+- **Animations**: Framer Motion
+- **Version Control**: Git, GitHub
+- **Deployment**: Netlify
+
+---
+
+## 📁 Folder Structure
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+.
+├── public/
+│   └── assets/audio/        # Audio files and public assets
+├── src/                     # React components, pages, and logic
+├── index.html               # Root HTML file
+├── package.json             # Project metadata and scripts
+├── tailwind.config.js       # Tailwind CSS config
+├── vite.config.ts           # Vite build configuration
+├── .gitignore               # Files ignored by Git
+├── README.md                # You're reading it!
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+````
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+---
+
+## 🛠 Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+
+# Navigate into the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+````
+
+---
+
+## 📦 Production Build
+
+To generate the optimized production build:
+
+```bash
+npm run build
 ```
-# myportfolio
+
+Output will be in the `dist/` folder.
+
+---
+
+## 🌍 Deployment (Netlify)
+
+1. Push your code to a GitHub repository
+2. Connect Netlify to the repo
+3. Set:
+
+   * **Build Command**: `npm run build`
+   * **Publish Directory**: `dist`
+4. Your site will auto-update on every push
+
+---
+
+## 📫 Connect With Me
+
+* **GitHub**: [AbdulSamiWorks](https://github.com/AbdulSamiWorks)
+* **LinkedIn**: [Abdul Sami](https://linkedin.com/in/abdul-sami35515)
+* **Email**: [samiabdul.official@gmail.com](mailto:abdulsami34421@gmail.com)
+* **Medium**: [@abdulsami](https://medium.com/)
+* **YouTube**: [Abdul Sami YouTube](https://youtube.com/)
+* **Portfolio**: [Visit Site](https://your-netlify-link.com)
+
+---
+
+## 📄 License
+
+This project is free to use for educational or personal inspiration.
+
+
