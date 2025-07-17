@@ -5,7 +5,7 @@ It highlights my projects, research in AI & Federated Learning, technical skills
 
 ## 📍 Live Site
 
-🔗 [Visit Portfolio](https://your-netlify-link.com) 
+🔗 [Visit Portfolio](https://abdulsamiportfolio.vercel.app/) 
 
 ---
 
@@ -95,10 +95,10 @@ Output will be in the `dist/` folder.
 
 * **GitHub**: [AbdulSamiWorks](https://github.com/AbdulSamiWorks)
 * **LinkedIn**: [Abdul Sami](https://linkedin.com/in/abdul-sami35515)
-* **Email**: [samiabdul.official@gmail.com](mailto:abdulsami34421@gmail.com)
+* **Email**: [Abdul Sami](mailto:abdulsami34421@gmail.com)
 * **Medium**: [@abdulsami](https://medium.com/)
 * **YouTube**: [Abdul Sami YouTube](https://youtube.com/)
-* **Portfolio**: [Visit Site](https://your-netlify-link.com)
+* **Portfolio**: [Visit Site](https://abdulsamiportfolio.vercel.app/)
 
 ---
 
