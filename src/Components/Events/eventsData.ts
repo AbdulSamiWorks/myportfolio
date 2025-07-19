@@ -5,7 +5,7 @@ export const eventsData = {
       year: "2024",
       role: "Finalist (Top Teams)",
       location: "Lahore, Pakistan",
-      imageSrc: "/assets/events/ai-hackathon.jpg", // Replace with real image if available
+      imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752948511/FB_IMG_1706272236346_bsufws.jpg", // Replace with real image if available
       description:
         "Participated in a national-level AI Hackathon hosted by Xeven Solutions, focusing on large language models (LLMs) and real-world AI problem-solving.",
       achievements: [
@@ -14,8 +14,9 @@ export const eventsData = {
         "Collaborated with cross-functional participants for deployment",
       ],
       gallery: [
-        "/assets/events/ai-hackathon-1.jpg",
-        "/assets/events/ai-hackathon-2.jpg",
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752947252/Xeven-hackthon-finilist_v3wtj7.jpg",
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752948574/IMG-20240122-WA0133_j1xqvr.jpg",
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752948610/20240122_191753_ybetoi.jpg",
       ],
     },
     {
@@ -23,7 +24,7 @@ export const eventsData = {
       year: "2023",
       role: "Class TA",
       location: "Iqra University, Islamabad",
-      imageSrc: "/assets/events/ta-class.jpg", // Add class or symbolic TA image
+      imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752949333/TA-physics.png", // Add class or symbolic TA image
       description:
         "Volunteered as a Teaching Assistant for a semester in Physics, helping fellow students understand fundamental concepts and solve numerical problems.",
       achievements: [
@@ -32,7 +33,7 @@ export const eventsData = {
         "Gained mentorship and communication experience",
       ],
       gallery: [
-        "/assets/events/ta-teaching.jpg",
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752949333/TA-physics.png",
       ],
     },
     {

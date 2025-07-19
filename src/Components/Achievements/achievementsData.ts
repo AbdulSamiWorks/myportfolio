@@ -35,7 +35,7 @@ export const achievementsData = {
       description:
         "Finalist in a national AI Hackathon organized by Xeven Solutions, building innovative solutions using large language models (LLMs).",
       image:
-        "https://abdulsamiportfolio.netlify.app/assets/ai_hackathon.jpg", // Replace with your image
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752947252/Xeven-hackthon-finilist_v3wtj7.jpg", // Replace with your image
       year: "2024",
       highlights: [
         "Designed LLM-based solution under mentorship",
@@ -49,7 +49,7 @@ export const achievementsData = {
       description:
         "Co-authored 3 AI research papers including one in IEEE Access and two under peer review, focused on NLP and medical imaging.",
       image:
-        "https://abdulsamiportfolio.netlify.app/assets/research.jpg", // Replace with a visual or chart
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752948699/6553b72c-24a5-4b5f-82a0-ff64adbe1b02_ddwarz.png", // Replace with a visual or chart
       year: "2024–2025",
       highlights: [
         "Published in IEEE Access with high citation potential",

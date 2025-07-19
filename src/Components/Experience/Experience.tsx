@@ -89,13 +89,13 @@ const Experience: React.FC = () => {
         <SummaryCard
           icon={<Calendar className="w-5 h-5" />}
           label="Month of Experience"
-          value={"6"}
+          value={"1.5 year+"}
           bg="bg-green-50"
         />
         <SummaryCard
           icon={<MapPin className="w-5 h-5" />}
           label="Companies"
-          value={"2"}
+          value={"1"}
           bg="bg-yellow-50"
         />
       </motion.div>

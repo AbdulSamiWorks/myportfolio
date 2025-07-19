@@ -67,6 +67,15 @@ const App: React.FC = () => {
             </div>
           </Link>
 
+              <Link to="/CertificationsAndCourses" className="group relative">
+            <div className="border-4 border-black p-6 bg-[#FEFFF0] h-full hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition duration-300">
+              <h2 className="text-2xl font-bold mb-3">Certifications</h2>
+              <p className="text-gray-600">
+                Tech events I've attended and organized.
+              </p>
+            </div>
+          </Link>
+
           <Link to="/contact" className="group relative">
             <div className="border-4 border-black p-6 bg-[#FEFFF0] h-full hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition duration-300">
               <h2 className="text-2xl font-bold mb-3">Contact</h2>
