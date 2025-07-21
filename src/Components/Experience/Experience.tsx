@@ -88,8 +88,8 @@ const Experience: React.FC = () => {
         />
         <SummaryCard
           icon={<Calendar className="w-5 h-5" />}
-          label="Month of Experience"
-          value={"1.5 year+"}
+          label="years of Experience"
+          value={"1.5+"}
           bg="bg-green-50"
         />
         <SummaryCard
@@ -345,42 +345,50 @@ const MobileTimelineCard = ({
   </motion.div>
 );
 
+
+
 const DesktopTimelineCard = ({ experience, index, variants }: any) => (
   <motion.div
     key={index}
     variants={variants}
     className={`relative mb-20 w-1/2 ${
-      index % 2 === 0 ? "pr-12 text-right self-end ml-auto" : "pl-12"
+      index % 2 === 0 ? "ml-auto pr-12" : "pl-12"
     }`}
   >
-    <div
-      className={`absolute top-0 left-0 -translate-x-1/2 w-10 h-10 border-4 border-black bg-white rounded-full flex items-center justify-center z-10`}
-    >
+    {/* Timeline Dot */}
+    <div className="absolute top-0 left-0 -translate-x-1/2 w-10 h-10 border-4 border-black bg-white rounded-full flex items-center justify-center z-10">
       <Briefcase className="w-4 h-4" />
     </div>
+
+    {/* Content Wrapper */}
     <div>
-      <div
-        className={`inline-flex items-center gap-1 bg-yellow-300 border-2 border-black px-3 py-1 text-sm mb-4 ${
-          index % 2 === 0 ? "float-right" : ""
-        }`}
-      >
-        <Calendar className="w-3 h-3" />
-        <span className="font-bold">{experience.period}</span>
+      {/* Date Badge */}
+      <div className={`mb-4 ${index % 2 === 0 ? "flex justify-end" : ""}`}>
+        <div className="inline-flex items-center gap-1 bg-yellow-300 border-2 border-black px-3 py-1 text-sm">
+          <Calendar className="w-3 h-3" />
+          <span className="font-bold">{experience.period}</span>
+        </div>
       </div>
+
+      {/* Main Card */}
       <div
         className={`border-4 border-black bg-white p-6 transition hover:shadow-[${
           index % 2 === 0 ? "-5px" : "5px"
         }_5px_0px_0px_rgb(0,0,0)]`}
       >
         <h3 className="text-xl font-bold mb-1">{experience.role}</h3>
-        <div className={`flex items-center gap-2 mb-4`}>
+
+        <div className="flex items-center gap-2 mb-4">
           <h4 className="text-lg">{experience.company}</h4>
           <div className="flex items-center gap-1 text-sm">
             <MapPin className="w-4 h-4" />
             <span>{experience.location}</span>
           </div>
         </div>
+
         <p className="text-gray-700 mb-4">{experience.description}</p>
+
+        {/* Technologies */}
         <div className="flex flex-wrap gap-2 mb-4">
           {experience.technologies.map((tech: string, index: number) => (
             <span
@@ -391,6 +399,8 @@ const DesktopTimelineCard = ({ experience, index, variants }: any) => (
             </span>
           ))}
         </div>
+
+        {/* Accomplishments */}
         {experience.accomplishments && (
           <div>
             <h5 className="font-bold mb-2">Key Accomplishments:</h5>
@@ -401,6 +411,8 @@ const DesktopTimelineCard = ({ experience, index, variants }: any) => (
             </ul>
           </div>
         )}
+
+        {/* Optional URL */}
         {experience.url && (
           <div className="mt-4">
             <a
@@ -409,7 +421,7 @@ const DesktopTimelineCard = ({ experience, index, variants }: any) => (
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-sm font-bold hover:underline"
             >
-              Visit Company
+              Visit Organization
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>

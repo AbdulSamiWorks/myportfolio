@@ -1,95 +1,113 @@
 export const coursesData = [
-  {
+{
   name: "JavaScript Basics",
   platform: "Coursera (University of California, Davis)",
   year: "2023",
   description:
-    "Covered foundational JavaScript concepts including variables, functions, loops, events, and DOM manipulation.",
+    "Successfully completed an online non-credit course authorized by the University of California, Davis. Covered foundational JavaScript concepts including variables, functions, loops, events, and DOM manipulation.",
   skills: ["JavaScript", "Variables", "Loops", "DOM", "Functions"],
-  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752951276/Javacript_coursera.jpg", // Replace this with your actual Cloudinary image URL
-  certificateUrl: "https://coursera.org/share/261506044020ebbb79cbabd9176a88b4",
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752951276/Javacript_coursera.jpg", // Cloudinary image URL
+  certificateUrl: "https://coursera.org/verify/L3AY4KLF8T5A"
 }
+
 ,
-  {
+{
   name: "Introduction to TensorFlow for AI, ML, and DL",
   platform: "Coursera (offered by DeepLearning.AI)",
-  year: "2025",
-  description: "Introduction to building AI models using TensorFlow, covering neural networks, computer vision, and NLP basics.",
+  year: "2023",
+  description:
+    "Successfully completed an online non-credit course authorized by DeepLearning.AI. Covered neural networks, computer vision, NLP basics, and model building using TensorFlow.",
   skills: ["TensorFlow", "Deep Learning", "Neural Networks"],
-  imageSrc: "/assets/certificates/tensorflow-intro.jpg",
-  certificateUrl: "https://coursera.org/share/your_tensorflow_certificate_id", // <-- replace this
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753084932/deep_jf29wg.png",
+  certificateUrl: "https://coursera.org/verify/CJMDMDGVWPJJ"
 },
 {
   name: "How to Write a Research Paper",
-  platform: "Coursera (offered by Wesleyan University)",
+  platform: "Coursera (offered by Higher Education Commission, Pakistan)",
   year: "2025",
-  description: "Covers the academic research process, including finding sources, thesis writing, and paper structuring.",
+  description:
+    "Successfully completed a non-credit course on academic research authorized by HEC Pakistan. Covered research process, source evaluation, thesis writing, and academic paper structuring.",
   skills: ["Research Writing", "Academic Writing", "Citations"],
-  imageSrc: "/assets/certificates/research-paper.jpg",
-  certificateUrl: "https://coursera.org/share/your_research_paper_certificate_id", // <-- replace this
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085052/research_z0q47y.png",
+  certificateUrl: "https://coursera.org/verify/YL15BPDCRBFW"
 },
 {
-  name: "HTML and CSS in Depth",
-  platform: "Coursera (offered by Meta)",
-  year: "2025",
-  description: "Detailed coverage of HTML and CSS for designing responsive, modern websites.",
-  skills: ["HTML", "CSS", "Responsive Design", "Flexbox"],
-  imageSrc: "/assets/certificates/html-css.jpg",
-  certificateUrl: "https://coursera.org/share/your_html_css_certificate_id", // <-- replace this
+  "name": "HTML and CSS in Depth",
+  "platform": "Coursera (offered by Meta)",
+  "year": "2025",
+  "description": "Detailed coverage of HTML and CSS for designing responsive, modern websites.",
+  "skills": ["HTML", "CSS", "Responsive Design", "Flexbox"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085179/html_whje2f.png",
+  "certificateUrl": "https://coursera.org/verify/FZEAFKXCPJ86"
+},
+
+{
+  "name": "Crash Course on Python",
+  "platform": "Coursera (offered by Google)",
+  "year": "2025",
+  "description": "A beginner-friendly course to learn programming fundamentals and Python syntax.",
+  "skills": ["Python", "Programming", "Control Flow", "Functions"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085494/python_zvrs0w.png",
+  "certificateUrl": "https://coursera.org/verify/SLH896KUM7RZ"
 },
 {
-  name: "Crash Course on Python",
-  platform: "Coursera (offered by Google)",
-  year: "2025",
-  description: "A beginner-friendly course to learn programming fundamentals and Python syntax.",
-  skills: ["Python", "Programming", "Control Flow", "Functions"],
-  imageSrc: "/assets/certificates/python-crash.jpg",
-  certificateUrl: "https://coursera.org/share/your_python_crash_certificate_id", // <-- replace this
+  "name": "AI For Everyone",
+  "platform": "Coursera (offered by DeepLearning.AI)",
+  "year": "2025",
+  "description": "A non-technical course explaining what AI can and cannot do, and how to apply it in business.",
+  "skills": ["AI Concepts", "Business Strategy", "Ethics in AI"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085608/deep_learn_pmbye1.png",
+  "certificateUrl": "https://coursera.org/verify/ZRBSUQSEB55M"
 },
+
 {
-  name: "AI For Everyone",
-  platform: "Coursera (offered by DeepLearning.AI)",
-  year: "2025",
-  description: "A non-technical course explaining what AI can and cannot do, and how to apply it in business.",
-  skills: ["AI Concepts", "Business Strategy", "Ethics in AI"],
-  imageSrc: "/assets/certificates/ai-for-everyone.jpg",
-  certificateUrl: "https://coursera.org/share/your_ai_for_everyone_certificate_id", // <-- replace this
+  "name": "Develop Generative AI Applications: Get Started",
+  "platform": "Coursera (authorized by IBM)",
+  "year": "2025",
+  "description": "Completed an online non-credit course on building generative AI applications, offered by IBM through Coursera.",
+  "skills": ["Generative AI", "Prompt Engineering", "AI Application Development"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085943/gen_ai_t7fkgx.png",
+  "certificateUrl": "https://coursera.org/verify/NWD4204ORA73"
 },
+
 {
   name: "Animation with JavaScript and jQuery",
-  platform: "Coursera (offered by University of London)",
-  year: "2025",
+  platform: "Coursera (offered by University of California, Davis)",
+  year: "2023",
   description: "Learn how to create dynamic animations and interactions using JavaScript and jQuery.",
   skills: ["JavaScript", "jQuery", "Web Animation"],
-  imageSrc: "/assets/certificates/js-jquery-animation.jpg",
-  certificateUrl: "https://coursera.org/share/your_js_jquery_certificate_id", // <-- replace this
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086005/animation_awkvgi.png",
+  certificateUrl: "https://coursera.org/verify/QRGQSBMZBVXH",
 },
-{
-  name: "Develop Generative AI Applications: Get Started",
-  platform: "Coursera (offered by AWS)",
-  year: "2025",
-  description: "Foundational course for building generative AI apps using AWS tools and services.",
-  skills: ["Generative AI", "AWS", "Prompt Engineering"],
-  imageSrc: "/assets/certificates/generative-ai-aws.jpg",
-  certificateUrl: "https://coursera.org/share/your_generative_ai_certificate_id", // <-- replace this
-},
+
 {
   name: "Introduction to Front-End Development",
   platform: "Coursera (offered by Meta)",
-  year: "2025",
+  year: "2023",
   description: "Covers HTML, CSS, and JavaScript fundamentals to build interactive web interfaces.",
   skills: ["Front-End", "HTML/CSS", "JavaScript", "Web Development"],
-  imageSrc: "/assets/certificates/front-end-meta.jpg",
-  certificateUrl: "https://coursera.org/share/your_frontend_certificate_id", // <-- replace this
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086073/intro_esw2po.png",
+  certificateUrl: "https://coursera.org/verify/9FSM4ZD46BHH",
 },
+
 {
   name: "Understanding Research Methods",
-  platform: "Coursera (offered by University of London)",
+  platform: "Coursera (offered by University of London and SOAS University of London)",
   year: "2025",
   description: "Explores various research methodologies used in academic and applied research, including qualitative, quantitative, and mixed methods.",
   skills: ["Research Design", "Data Collection", "Methodologies"],
-  imageSrc: "/assets/certificates/research-methods.jpg",
-  certificateUrl: "https://coursera.org/share/your_research_methods_certificate_id", // <-- replace this
+  imageSrc: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086132/undstanding_akye0t.png",
+  certificateUrl: "https://coursera.org/verify/P2GYMXKNYT40",
+},
+
+{
+  "name": "Build a Full Stack App using React and Express",
+  "platform": "Coursera (Guided Project)",
+  "year": "2023",
+  "description": "Hands-on guided project to develop a full stack web application using React for the frontend and Express for the backend.",
+  "skills": ["React", "Express.js", "Full Stack Development", "Web Development"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086507/fullstack_rbid8z.png",
+  "certificateUrl": "https://coursera.org/verify/PYV7DWDAJYDQ"
 }
 
 

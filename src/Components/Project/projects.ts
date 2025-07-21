@@ -4,7 +4,7 @@ const projects = [
     image: "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752761247/portfolio_pic_ktmnja.png",
     title: "Portfolio Website",
     description: "Personal portfolio website built using HTML, Tailwind CSS, and JavaScript.",
-    url: "https://abdulsamiportfolio.netlify.app/",
+    url: "https://abdulsamiportfolio.vercel.app/",
     repo: null, // Optional: add if hosted on GitHub
   },
   {
