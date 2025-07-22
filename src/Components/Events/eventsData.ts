@@ -49,7 +49,7 @@ export const eventsData = {
   ],
   gallery: []
 },
-
+/*
     {
       name: "Teaching Assistant – Physics",
       year: "2023",
@@ -84,6 +84,7 @@ export const eventsData = {
         "/assets/events/class-meet.jpg",
       ],
     },
+    */
   ],
 };
 
