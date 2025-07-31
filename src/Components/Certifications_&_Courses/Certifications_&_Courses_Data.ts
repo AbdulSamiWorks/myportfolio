@@ -108,7 +108,17 @@ export const coursesData = [
   "skills": ["React", "Express.js", "Full Stack Development", "Web Development"],
   "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086507/fullstack_rbid8z.png",
   "certificateUrl": "https://coursera.org/verify/PYV7DWDAJYDQ"
+},
+{
+  "name": "Build RAG Applications: Get Started",
+  "platform": "Coursera (offered by IBM)",
+  "year": "2025",
+  "description": "Covers the basics of Retrieval-Augmented Generation (RAG), helping learners build intelligent applications using RAG pipelines. Includes hands-on labs and foundational concepts of LLMs, embeddings, and vector databases.",
+  "skills": ["RAG", "LLMs", "Vector Databases", "Embeddings", "Prompt Engineering"],
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753248555/ragg_vnlbqc.png",
+  "certificateUrl": "https://coursera.org/verify/29FTRTC3J8DQ"
 }
+
 
 
 ];

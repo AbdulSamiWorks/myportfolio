@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
 import { Calendar } from "lucide-react";
 import { coursesData } from "./Certifications_&_Courses_Data";
 
@@ -8,13 +7,19 @@ const CertificationsAndCourses: React.FC = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
+  // Fallback for mobile
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+  }, []);
+
   return (
     <motion.div
       ref={ref}
       id="courses"
-      className="font-codefont bg-[#FEFFF0] w-full mx-auto p-10 md:px-36 py-28"
+      className="font-codefont bg-[#FEFFF0] w-full mx-auto p-6 sm:p-8 md:px-36 py-16 md:py-28"
       initial={{ opacity: 0 }}
-      animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+      animate={isInView || isMobile ? { opacity: 1 } : { opacity: 0 }}
       transition={{ duration: 0.6 }}
     >
       <h2 className="text-4xl font-black mb-2 inline-block border-b-4 border-black">
@@ -25,11 +30,11 @@ const CertificationsAndCourses: React.FC = () => {
         Self-paced learning through global platforms like Coursera, AWS, Google.
       </p>
 
-      <div className="grid md:grid-cols-1 gap-12">
+      <div className="grid grid-cols-1 gap-12">
         {coursesData.map((course, index) => (
           <motion.div
             key={index}
-            className="grid md:grid-cols-2 gap-6 border-4 border-black bg-white hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition-shadow"
+            className="grid grid-cols-1 md:grid-cols-2 gap-6 border-4 border-black bg-white hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition-shadow"
             whileHover={{ y: -5 }}
           >
             {/* Left - Details */}
@@ -77,11 +82,11 @@ const CertificationsAndCourses: React.FC = () => {
             </div>
 
             {/* Right - Certificate Image */}
-            <div className="p-4 border-l-4 border-black bg-yellow-100">
+            <div className="p-4 border-t-4 md:border-t-0 md:border-l-4 border-black bg-yellow-100">
               <img
                 src={course.imageSrc}
                 alt={course.name}
-                className="w-full h-full object-contain border-2 border-black"
+                className="w-full h-auto max-h-64 object-contain border-2 border-black"
               />
             </div>
           </motion.div>
