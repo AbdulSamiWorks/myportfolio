@@ -7,7 +7,7 @@ const CertificationsAndCourses: React.FC = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
-  // Fallback for mobile
+  // Fallback for mobile visibility
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     setIsMobile(window.innerWidth <= 768);
@@ -82,11 +82,12 @@ const CertificationsAndCourses: React.FC = () => {
             </div>
 
             {/* Right - Certificate Image */}
-            <div className="p-4 border-t-4 md:border-t-0 md:border-l-4 border-black bg-yellow-100">
+            <div className="p-4 border-t-4 md:border-t-0 md:border-l-4 border-black bg-yellow-100 flex items-center justify-center">
               <img
                 src={course.imageSrc}
                 alt={course.name}
-                className="w-full h-auto max-h-64 object-contain border-2 border-black"
+                className="w-full object-contain border-2 border-black 
+                  h-64 sm:h-72 md:h-80 lg:h-[24rem] xl:h-[28rem]"
               />
             </div>
           </motion.div>
