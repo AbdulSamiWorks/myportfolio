@@ -1,6 +1,21 @@
 export const achievementsData = {
   featured: [
     {
+      title: "Decentralized Federated Learning for Ocular Disease Diagnosis",
+      description:
+        "Developed a privacy-preserving federated learning framework for ocular disease diagnosis, achieving 99.1% accuracy while ensuring complete data privacy.",
+      image:
+        "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754149767/FYP_aleevo.png", // Replace with an actual screenshot if needed
+      highlights: [
+        "Implemented Swin Transformer, MobileNetV2, EfficientNet-B0, and CNN with Attention",
+        "Achieved 99.1% accuracy with Federated and Decentralized Federated Learning",
+        "Developed a secure, privacy-focused web platform for healthcare professionals",
+        "Conducted comparative analysis between FL and DFL for performance and privacy",
+      ],
+      link: "https://fyp.abdulsami.xyz/",
+    },
+
+    {
       title: "IEEE Access Publication",
       description:
         "Published a paper in IEEE Access on a privacy-preserving sarcasm detection model using BiLSTM with attention, achieving over 98% accuracy.",
@@ -76,8 +91,7 @@ export const achievementsData = {
       title: "LLM Projects & Chatbots",
       description:
         "Developed multiple LLM-based AI assistants and document chatbots deployed on Streamlit.",
-      image:
-        "https://ai-documentgpt.streamlit.app/", // Visual of app UI
+      image: "https://ai-documentgpt.streamlit.app/", // Visual of app UI
       year: "2025",
       highlights: [
         "Built Pak-Law GPT and document-based RAG chatbot",
@@ -88,7 +102,6 @@ export const achievementsData = {
     },
   ],
 };
-
 
 /*
 
