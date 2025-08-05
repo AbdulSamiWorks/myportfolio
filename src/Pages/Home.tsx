@@ -71,7 +71,7 @@ const Home: React.FC = () => {
                 </motion.button>
 
                 <motion.a
-                   href="https://drive.google.com/file/d/1dUFpirq0Xp8eRCW4oDZX7fIVcJstJrFW/view?usp=drive_link"
+                   href="https://drive.google.com/file/d/10v-YhuMqxlYiLGqPcMUwqSZQNXwGJV3E/view?usp=sharing"
                   //href="/assets/Abdul_Sami_cv.pdf"
                   target="_blank"
                   whileHover={{ scale: 1.05 }}
