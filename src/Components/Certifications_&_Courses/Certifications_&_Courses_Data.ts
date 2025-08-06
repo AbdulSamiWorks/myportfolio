@@ -68,7 +68,7 @@ export const coursesData = [
     ],
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754501863/ge_ihbrbd.png", 
-    certificateUrl: "https://coursera.org/verify/QEYDVHDO93VAP",
+    certificateUrl: "https://coursera.org/verify/QEVDHDO93VAP",
   },
 
   {
