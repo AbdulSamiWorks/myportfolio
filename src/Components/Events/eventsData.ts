@@ -49,6 +49,21 @@ export const eventsData = {
   ],
   gallery: []
 },
+{
+  "name": "Sundas Foundation Blood Donation",
+  "year": "2024",
+  "role": "Donor",
+  "location": "Islamabad, Pakistan",
+  "imageSrc": "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754496936/blood_donation_efpm3v.jpg", 
+  "description": "Awarded a Certificate of Donor by Sundas Foundation in recognition of generous blood donation for thalassemia and hemophilia patients.",
+  "achievements": [
+    "Contributed to helping thalassemia and hemophilia patients",
+    "Recognized by Sundas Foundation for voluntary blood donation",
+    "Acknowledged for humanitarian support in healthcare"
+  ],
+  "gallery": []
+},
+
 /*
     {
       name: "Teaching Assistant – Physics",
