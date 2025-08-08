@@ -1,4 +1,5 @@
 export const coursesData = [
+  // 1️⃣ Core AI / ML & Python
   {
     name: "Introduction to TensorFlow for AI, ML, and DL",
     platform: "Coursera (offered by DeepLearning.AI)",
@@ -10,6 +11,47 @@ export const coursesData = [
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753084932/deep_jf29wg.png",
     certificateUrl: "https://coursera.org/verify/CJMDMDGVWPJJ",
   },
+  {
+    name: "AI For Everyone",
+    platform: "Coursera (offered by DeepLearning.AI)",
+    year: "2025",
+    description:
+      "A non-technical course explaining what AI can and cannot do, and how to apply it in business.",
+    skills: ["AI Concepts", "Business Strategy", "Ethics in AI"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085608/deep_learn_pmbye1.png",
+    certificateUrl: "https://coursera.org/verify/ZRBSUQSEB55M",
+  },
+  {
+    name: "Python Essentials for MLOps",
+    platform: "Coursera (offered by Duke University)",
+    year: "2025",
+    description:
+      "An online non-credit course authorized by Duke University and offered through Coursera. This course covers essential Python skills tailored for MLOps, equipping learners with practical programming techniques and workflows for machine learning operations.",
+    skills: [
+      "Python Programming",
+      "MLOps",
+      "Machine Learning Workflows",
+      "Automation",
+      "Data Processing",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754666016/python_upmdk2.png",
+    certificateUrl: "https://coursera.org/verify/GFLLS68LLU8D",
+  },
+  {
+    name: "Crash Course on Python",
+    platform: "Coursera (offered by Google)",
+    year: "2025",
+    description:
+      "A beginner-friendly course to learn programming fundamentals and Python syntax.",
+    skills: ["Python", "Programming", "Control Flow", "Functions"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085494/python_zvrs0w.png",
+    certificateUrl: "https://coursera.org/verify/SLH896KUM7RZ",
+  },
+
+  // 2️⃣ RAG, LLMs & Generative AI
   {
     name: "Build RAG Applications: Get Started",
     platform: "Coursera (offered by IBM)",
@@ -67,32 +109,11 @@ export const coursesData = [
       "IBM Tools",
     ],
     imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754501863/ge_ihbrbd.png", 
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754501863/ge_ihbrbd.png",
     certificateUrl: "https://coursera.org/verify/QEVDHDO93VAP",
   },
 
-  {
-    name: "AI For Everyone",
-    platform: "Coursera (offered by DeepLearning.AI)",
-    year: "2025",
-    description:
-      "A non-technical course explaining what AI can and cannot do, and how to apply it in business.",
-    skills: ["AI Concepts", "Business Strategy", "Ethics in AI"],
-    imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085608/deep_learn_pmbye1.png",
-    certificateUrl: "https://coursera.org/verify/ZRBSUQSEB55M",
-  },
-  {
-    name: "Crash Course on Python",
-    platform: "Coursera (offered by Google)",
-    year: "2025",
-    description:
-      "A beginner-friendly course to learn programming fundamentals and Python syntax.",
-    skills: ["Python", "Programming", "Control Flow", "Functions"],
-    imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085494/python_zvrs0w.png",
-    certificateUrl: "https://coursera.org/verify/SLH896KUM7RZ",
-  },
+  // 3️⃣ Research & Academic Skills
   {
     name: "How to Write a Research Paper",
     platform: "Coursera (offered by Higher Education Commission, Pakistan)",
@@ -117,8 +138,18 @@ export const coursesData = [
     certificateUrl: "https://coursera.org/verify/P2GYMXKNYT40",
   },
 
-  // --- Web Development Skills (Grouped Below) ---
-
+  // 4️⃣ Web Development Skills
+  {
+    name: "HTML and CSS in Depth",
+    platform: "Coursera (offered by Meta)",
+    year: "2025",
+    description:
+      "Detailed coverage of HTML and CSS for designing responsive, modern websites.",
+    skills: ["HTML", "CSS", "Responsive Design", "Flexbox"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085179/html_whje2f.png",
+    certificateUrl: "https://coursera.org/verify/FZEAFKXCPJ86",
+  },
   {
     name: "JavaScript Basics",
     platform: "Coursera (University of California, Davis)",
@@ -140,17 +171,6 @@ export const coursesData = [
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086005/animation_awkvgi.png",
     certificateUrl: "https://coursera.org/verify/QRGQSBMZBVXH",
-  },
-  {
-    name: "HTML and CSS in Depth",
-    platform: "Coursera (offered by Meta)",
-    year: "2025",
-    description:
-      "Detailed coverage of HTML and CSS for designing responsive, modern websites.",
-    skills: ["HTML", "CSS", "Responsive Design", "Flexbox"],
-    imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085179/html_whje2f.png",
-    certificateUrl: "https://coursera.org/verify/FZEAFKXCPJ86",
   },
   {
     name: "Introduction to Front-End Development",
