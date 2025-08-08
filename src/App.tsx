@@ -67,11 +67,19 @@ const App: React.FC = () => {
             </div>
           </Link>
 
-              <Link to="/CertificationsAndCourses" className="group relative">
+          <Link to="/certificationsAndCourses" className="group relative">
             <div className="border-4 border-black p-6 bg-[#FEFFF0] h-full hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition duration-300">
               <h2 className="text-2xl font-bold mb-3">Certifications</h2>
               <p className="text-gray-600">
-                Tech events I've attended and organized.
+                Verified skills and courses I’ve completed.
+              </p>
+            </div>
+          </Link>
+          <Link to="/blogs" className="group relative">
+            <div className="border-4 border-black p-6 bg-[#FEFFF0] h-full hover:shadow-[5px_5px_0px_0px_rgb(0,0,0)] transition duration-300">
+              <h2 className="text-2xl font-bold mb-3">Blog Articles</h2>
+              <p className="text-gray-600">
+                Insights, tutorials, and stories from my tech journey.
               </p>
             </div>
           </Link>

@@ -48,7 +48,8 @@ export default function Header() {
     { name: "Projects", path: "/projects" },
     { name: "Experience", path: "/experience" },
     { name: "Events", path: "/events" },
-    { name: "Certifications", path: "/CertificationsAndCourses" },
+    { name: "Certifications", path: "/certificationsAndCourses" },
+    { name: "Blogs", path: "/blogs" },
     { name: "Contact", path: "/contact" },
     { name: "Links", path: "/linktree" },
   ];

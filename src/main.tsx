@@ -14,6 +14,8 @@ import Contact from "./Pages/Contact.tsx";
 import Linktree from "./Pages/Linktree.tsx";
 import { Analytics } from "@vercel/analytics/react";
 import Certifications from "./Pages/Certifications.tsx";
+import Blogs from "./Components/Blogs/Blogs.tsx";
+
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -28,7 +30,8 @@ createRoot(document.getElementById("root")!).render(
           <Route path="projects" element={<Projects />} />
           <Route path="experience" element={<Experience />} />
           <Route path="events" element={<Events />} />
-          <Route path="CertificationsAndCourses" element={<Certifications />} />
+          <Route path="certificationsAndCourses" element={<Certifications />} />
+          <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="linktree" element={<Linktree />} />
         </Route>
