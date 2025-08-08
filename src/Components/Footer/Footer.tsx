@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             {/* Optional: if you use Twitter or Peerlist, add your handles here */}
              <li>
               <a
-                href="https://twitter.com/YOUR_HANDLE"
+                href="https://twitter.com/abdulsami191534"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-gray-800"
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <a
-                href="https://peerlist.io/YOUR_HANDLE"
+                href="https://peerlist.io/sami7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-gray-800"

@@ -59,7 +59,7 @@ const Linktree: React.FC = () => {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/abdulsamifl", // Update if incorrect or unused
+      url: "https://twitter.com/abdulsami191534", // Update if incorrect or unused
       icon: <FaTwitter className="w-6 h-6" />,
       color: "bg-sky-100",
       description: "Follow my thoughts and updates",
@@ -80,7 +80,7 @@ const Linktree: React.FC = () => {
     },
     {
       name: "Medium",
-      url: "https://medium.com/@abdulsamifl", // Replace with real Medium handle if you write
+      url: "https://medium.com/@abdulsami34421", // Replace with real Medium handle if you write
       icon: <FaMedium className="w-6 h-6" />,
       color: "bg-yellow-100",
       description: "Read my technical articles",
