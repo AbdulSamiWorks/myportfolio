@@ -1,17 +1,6 @@
 export const coursesData = [
   // 1️⃣ Core AI / ML & Python
   {
-    name: "Introduction to TensorFlow for AI, ML, and DL",
-    platform: "Coursera (offered by DeepLearning.AI)",
-    year: "2023",
-    description:
-      "Successfully completed an online non-credit course authorized by DeepLearning.AI. Covered neural networks, computer vision, NLP basics, and model building using TensorFlow.",
-    skills: ["TensorFlow", "Deep Learning", "Neural Networks"],
-    imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753084932/deep_jf29wg.png",
-    certificateUrl: "https://coursera.org/verify/CJMDMDGVWPJJ",
-  },
-  {
     name: "AI For Everyone",
     platform: "Coursera (offered by DeepLearning.AI)",
     year: "2025",
@@ -21,6 +10,17 @@ export const coursesData = [
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753085608/deep_learn_pmbye1.png",
     certificateUrl: "https://coursera.org/verify/ZRBSUQSEB55M",
+  },
+  {
+    name: "Introduction to TensorFlow for AI, ML, and DL",
+    platform: "Coursera (offered by DeepLearning.AI)",
+    year: "2023",
+    description:
+      "Successfully completed an online non-credit course authorized by DeepLearning.AI. Covered neural networks, computer vision, NLP basics, and model building using TensorFlow.",
+    skills: ["TensorFlow", "Deep Learning", "Neural Networks"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753084932/deep_jf29wg.png",
+    certificateUrl: "https://coursera.org/verify/CJMDMDGVWPJJ",
   },
   {
     name: "Python Essentials for MLOps",
@@ -79,6 +79,28 @@ export const coursesData = [
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753960483/vectorDB_jx3osb.png",
     certificateUrl: "https://coursera.org/verify/6W43E9QZB97N",
+  },
+  {
+    name: "Advanced RAG with Vector Databases and Retrievers",
+    platform: "Coursera (offered by IBM)",
+    year: "2025",
+    description:
+      "Explores advanced Retrieval-Augmented Generation techniques using vector databases and retrievers for building efficient AI-powered search and knowledge systems.",
+    skills: ["RAG", "Vector Databases", "Retrievers", "AI", "Information Retrieval"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754746575/rag_vk5oub.png",
+    certificateUrl: "https://coursera.org/verify/LWPUWU7MHQE2",
+  },
+  {
+    name: "Fundamentals of Building AI Agents",
+    platform: "Coursera (offered by IBM)",
+    year: "2025",
+    description:
+      "Covers the foundational concepts and practical skills to design, develop, and deploy AI agents capable of autonomous decision-making and interaction.",
+    skills: ["AI Agents", "Autonomous Systems", "Python", "Machine Learning", "AI Development"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754746513/agents_lipyr7.png",
+    certificateUrl: "https://coursera.org/verify/J4HI2XMIV1TW",
   },
   {
     name: "Develop Generative AI Applications: Get Started",
@@ -140,6 +162,17 @@ export const coursesData = [
 
   // 4️⃣ Web Development Skills
   {
+    name: "Introduction to Front-End Development",
+    platform: "Coursera (offered by Meta)",
+    year: "2023",
+    description:
+      "Covers HTML, CSS, and JavaScript fundamentals to build interactive web interfaces.",
+    skills: ["Front-End", "HTML/CSS", "JavaScript", "Web Development"],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086073/intro_esw2po.png",
+    certificateUrl: "https://coursera.org/verify/9FSM4ZD46BHH",
+  },
+  {
     name: "HTML and CSS in Depth",
     platform: "Coursera (offered by Meta)",
     year: "2025",
@@ -171,17 +204,6 @@ export const coursesData = [
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086005/animation_awkvgi.png",
     certificateUrl: "https://coursera.org/verify/QRGQSBMZBVXH",
-  },
-  {
-    name: "Introduction to Front-End Development",
-    platform: "Coursera (offered by Meta)",
-    year: "2023",
-    description:
-      "Covers HTML, CSS, and JavaScript fundamentals to build interactive web interfaces.",
-    skills: ["Front-End", "HTML/CSS", "JavaScript", "Web Development"],
-    imageSrc:
-      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086073/intro_esw2po.png",
-    certificateUrl: "https://coursera.org/verify/9FSM4ZD46BHH",
   },
   {
     name: "Build a Full Stack App using React and Express",

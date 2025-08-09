@@ -13,7 +13,7 @@ export const blogsData = [
     title: "Funny AI Agent Fails I've Seen (So You Don't Have To)",
     thumbnail: "https://miro.medium.com/v2/resize:fit:808/1*TBSgS2ZArhXT0UDkdThmbQ.png",
     snippet: "Hilarious and real-ish stories from the world of AI agents — bugs, bloopers, and busted bots included.",
-    url: "https://medium.com/@abdulsami/funny-ai-agent-fails-abc456", // replace with your actual URL
+    url: "https://medium.com/@abdulsami34421/funny-ai-agent-fails-ive-seen-so-you-don-t-have-to-fadc6086501b", // replace with your actual URL
     publishedAt: "August 2025",
     category: "AI / Machine Learning",
   },
