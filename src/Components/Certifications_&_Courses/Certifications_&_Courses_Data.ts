@@ -86,7 +86,13 @@ export const coursesData = [
     year: "2025",
     description:
       "Explores advanced Retrieval-Augmented Generation techniques using vector databases and retrievers for building efficient AI-powered search and knowledge systems.",
-    skills: ["RAG", "Vector Databases", "Retrievers", "AI", "Information Retrieval"],
+    skills: [
+      "RAG",
+      "Vector Databases",
+      "Retrievers",
+      "AI",
+      "Information Retrieval",
+    ],
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754746575/rag_vk5oub.png",
     certificateUrl: "https://coursera.org/verify/LWPUWU7MHQE2",
@@ -97,7 +103,13 @@ export const coursesData = [
     year: "2025",
     description:
       "Covers the foundational concepts and practical skills to design, develop, and deploy AI agents capable of autonomous decision-making and interaction.",
-    skills: ["AI Agents", "Autonomous Systems", "Python", "Machine Learning", "AI Development"],
+    skills: [
+      "AI Agents",
+      "Autonomous Systems",
+      "Python",
+      "Machine Learning",
+      "AI Development",
+    ],
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754746513/agents_lipyr7.png",
     certificateUrl: "https://coursera.org/verify/J4HI2XMIV1TW",
@@ -133,6 +145,24 @@ export const coursesData = [
     imageSrc:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754501863/ge_ihbrbd.png",
     certificateUrl: "https://coursera.org/verify/QEVDHDO93VAP",
+  },
+  
+  {
+    name: "Agentic AI with LangChain and LangGraph",
+    platform: "Coursera (offered by IBM)",
+    year: "2025",
+    description:
+      "An online non-credit course authorized by IBM, focusing on building AI agents using LangChain and LangGraph. Covers key topics such as agent orchestration, tool integration, conversational workflows, and practical AI system design.",
+    skills: [
+      "LangChain",
+      "LangGraph",
+      "Agentic AI",
+      "AI Workflows",
+      "Tool Integration",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754760345/langchain_wr4lns.png",
+    certificateUrl: "https://coursera.org/verify/EX5K7RD65ZOJ",
   },
 
   // 3️⃣ Research & Academic Skills
