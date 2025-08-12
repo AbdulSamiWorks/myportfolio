@@ -52,38 +52,52 @@ const Skills: React.FC = () => {
     },
   };
 
-  const skills = {
-    frontendMastery: [
-      { name: "React", icon: <FaReact />, level: "Expert" },
-      { name: "Next.js", icon: <SiNextdotjs />, level: "Expert" },
-      { name: "TailwindCSS", icon: <SiTailwindcss />, level: "Expert" },
-      { name: "shadcn/ui", icon: <SiShadcnui />, level: "Expert" },
-    ],
-    dataStack: [
-      { name: "Supabase", icon: <SiSupabase />, level: "Expert" },
-      { name: "TypeScript", icon: <SiTypescript />, level: "Advanced" },
-      { name: "Zod", icon: <SiZod />, level: "Advanced" },
-      { name: "Zustand", icon: <TbBrandRust />, level: "Advanced" },
-    ],
-    deployment: [
-      { name: "Vercel", icon: <SiVercel />, level: "Expert" },
-      { name: "Docker", icon: <SiDocker />, level: "Advanced" },
-      { name: "GitHub Actions", icon: <SiGithubactions />, level: "Advanced" },
-      { name: "PWA", icon: <FaCode />, level: "Advanced" },
-    ],
-    backend: [
-      { name: "Node.js", icon: <FaNode />, level: "Advanced" },
-      { name: "Express", icon: <FaServer />, level: "Advanced" },
-      { name: "PostgreSQL", icon: <SiPostgresql />, level: "Advanced" },
-      { name: "Resend", icon: <SiResend />, level: "Advanced" },
-    ],
-    other: [
-      { name: "React Native", icon: <FaMobile />, level: "Proficient" },
-      { name: "Expo", icon: <SiExpo />, level: "Proficient" },
-      { name: "AI Tools", icon: <FaRobot />, level: "Proficient" },
-      { name: "LangChain", icon: <IoSparkles />, level: "Beginner" },
-    ],
-  };
+const skills = {
+  frontendMastery: [
+    { name: "React", icon: <FaReact />, level: "Expert" },
+    { name: "Next.js", icon: <SiNextdotjs />, level: "Expert" },
+    { name: "TailwindCSS", icon: <SiTailwindcss />, level: "Expert" },
+    { name: "shadcn/ui", icon: <SiShadcnui />, level: "Expert" }
+  ],
+  dataStack: [
+    { name: "Supabase", icon: <SiSupabase />, level: "Expert" },
+    { name: "TypeScript", icon: <SiTypescript />, level: "Advanced" },
+    { name: "Zod", icon: <SiZod />, level: "Advanced" },
+    { name: "Zustand", icon: <TbBrandRust />, level: "Advanced" },
+    { name: "Vector Databases (Qdrant)", icon: <IoSparkles />, level: "Advanced" },
+    { name: "Semantic Search", icon: <IoSparkles />, level: "Advanced" },
+    { name: "Retrievers", icon: <IoSparkles />, level: "Advanced" },
+  ],
+  deployment: [
+    { name: "Vercel", icon: <SiVercel />, level: "Expert" },
+    { name: "Docker", icon: <SiDocker />, level: "Advanced" },
+    { name: "GitHub Actions", icon: <SiGithubactions />, level: "Advanced" },
+    { name: "PWA", icon: <FaCode />, level: "Advanced" },
+    { name: "AWS", icon: <FaCode />, level: "Proficient" },
+  ],
+  backend: [
+    { name: "Node.js", icon: <FaNode />, level: "Advanced" },
+    { name: "Express", icon: <FaServer />, level: "Advanced" },
+    { name: "PostgreSQL", icon: <SiPostgresql />, level: "Advanced" },
+    { name: "Resend", icon: <SiResend />, level: "Advanced" },
+    { name: "Python", icon: <FaCode />, level: "Expert" },
+    { name: "C++", icon: <FaCode />, level: "Advanced" },
+    { name: "JavaScript", icon: <FaCode />, level: "Expert" },
+  ],
+  other: [
+    { name: "Expo", icon: <SiExpo />, level: "Proficient" },
+    { name: "AI Tools", icon: <FaRobot />, level: "Proficient" },
+    { name: "LangChain", icon: <IoSparkles />, level: "Advanced" },
+    { name: "AI Agents", icon: <FaRobot />, level: "Advanced" },
+    { name: "Agentic AI (LangGraph)", icon: <IoSparkles />, level: "Advanced" },
+    { name: "RAG Pipelines", icon: <IoSparkles />, level: "Advanced" },
+    { name: "Multimodal AI", icon: <FaRobot />, level: "Advanced" },
+    { name: "Prompt Engineering", icon: <IoSparkles />, level: "Advanced" },
+    { name: "Research Writing", icon: <FaCode />, level: "Advanced" },
+    { name: "Academic Writing", icon: <FaCode />, level: "Advanced" },
+  ],
+};
+
 
   const getLevelClass = (level: string) => {
     switch (level) {
