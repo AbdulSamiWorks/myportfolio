@@ -10,7 +10,7 @@ const OutletCom: React.FC = () => {
       <Header />
       <Outlet />
       <Footer />
-      <BackgroundMusic audioSrc="/assets/audio/song.mp3" autoplay={true} />
+      <BackgroundMusic audioSrc="/assets/audio/song.mp3" autoplay={false} />
     </>
   );
 };

@@ -146,7 +146,6 @@ export const coursesData = [
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754501863/ge_ihbrbd.png",
     certificateUrl: "https://coursera.org/verify/QEVDHDO93VAP",
   },
-  
   {
     name: "Agentic AI with LangChain and LangGraph",
     platform: "Coursera (offered by IBM)",
@@ -164,8 +163,144 @@ export const coursesData = [
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1754760345/langchain_wr4lns.png",
     certificateUrl: "https://coursera.org/verify/EX5K7RD65ZOJ",
   },
+  {
+    name: "Cloud and AWS Basics",
+    platform: "Coursera (offered by LearnKartS)",
+    year: "2025",
+    description:
+      "This course covers the foundational concepts of cloud computing and Amazon Web Services (AWS). Learners gain an understanding of cloud models, AWS core services, and best practices for deployment and management in the cloud.",
+    skills: [
+      "Cloud Computing",
+      "AWS Services",
+      "Cloud Deployment",
+      "Infrastructure Management",
+      "LearnKartS Tools",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755168477/aws_jb4pmg.png",
+    certificateUrl: "https://coursera.org/verify/ITGEI3FRFV15",
+  },
+  {
+    name: "IELTS Writing Section Skills Mastery",
+    platform: "Coursera (offered by University of California, Irvine)",
+    year: "2025",
+    description:
+      "This course focuses on developing mastery in the IELTS Writing Section. Learners practice structured writing, task achievement, grammatical accuracy, and vocabulary enhancement to achieve high IELTS writing band scores.",
+    skills: [
+      "Academic Writing",
+      "IELTS Preparation",
+      "Grammar and Vocabulary",
+      "Writing Task 1 and Task 2",
+      "English Language Skills",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755168478/ielts_tcpcmn.png",
+    certificateUrl: "https://coursera.org/verify/W3PF300IV7MA",
+  },
 
   // 3️⃣ Research & Academic Skills
+  {
+    name: "Being a Researcher (in Information Science and Technology)",
+    platform: "Coursera (offered by Politecnico di Milano)",
+    year: "2025",
+    description:
+      "This course provides insights into becoming an effective researcher in information science and technology. It covers research methodologies, academic ethics, scholarly communication, and strategies for impactful research outcomes.",
+    skills: [
+      "Research Methodology",
+      "Academic Writing",
+      "Scholarly Communication",
+      "Information Science",
+      "Research Ethics",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755444185/being_uqwxy1.png",
+    certificateUrl: "https://coursera.org/verify/KV248HT8PJOA",
+  },
+  {
+    name: "Introduction to Systematic Review and Meta-Analysis",
+    platform: "Coursera (offered by Johns Hopkins University)",
+    year: "2025",
+    description:
+      "This course introduces learners to the principles and methods of systematic review and meta-analysis. It covers literature searching, critical appraisal, data extraction, statistical analysis, and interpretation of results in health research.",
+    skills: [
+      "Systematic Review",
+      "Meta-Analysis",
+      "Critical Appraisal",
+      "Epidemiology",
+      "Health Research Methods",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755534803/research_ceaypu.png",
+    certificateUrl: "https://coursera.org/verify/DSHVIGMN29MB",
+  },
+  {
+    name: "Research Methodologies",
+    platform: "Coursera (offered by Queen Mary University of London)",
+    year: "2025",
+    description:
+      "This course covers fundamental research methodologies, focusing on systematic approaches to designing, conducting, and analyzing research. Topics include qualitative and quantitative methods, data collection, critical thinking, and academic research practices.",
+    skills: [
+      "Research Methodology",
+      "Qualitative Analysis",
+      "Quantitative Analysis",
+      "Data Collection",
+      "Critical Thinking",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755880140/1_h0orec.png",
+    certificateUrl: "https://coursera.org/verify/22D39KVG6R8P",
+  },
+  {
+    name: "Gen AI Foundational Models for NLP & Language Understanding",
+    platform: "Coursera (offered by IBM)",
+    year: "2025",
+    description:
+      "This course introduces foundational models in Generative AI with a focus on Natural Language Processing and language understanding. Learners explore model architectures, applications in NLP, and practical techniques for implementing AI-driven solutions.",
+    skills: [
+      "Generative AI",
+      "Natural Language Processing",
+      "Language Models",
+      "AI Applications",
+      "Machine Learning",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755880167/2_faezi5.png",
+    certificateUrl: "https://coursera.org/verify/A7XBKWY7L0P7",
+  },
+  {
+    name: "IELTS Reading Section Skills Mastery",
+    platform: "Coursera (offered by University of California, Irvine)",
+    year: "2025",
+    description:
+      "This course focuses on mastering the IELTS Reading Section. Learners practice reading strategies, comprehension skills, time management, and vocabulary building to achieve high IELTS reading band scores.",
+    skills: [
+      "IELTS Preparation",
+      "Reading Comprehension",
+      "Vocabulary Enhancement",
+      "Time Management",
+      "English Language Skills",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755444185/IELTS-R_jx34v8.png",
+    certificateUrl: "https://coursera.org/verify/K9QWOKEY7O09",
+  },
+  {
+    name: "Java: Algorithms",
+    platform: "Coursera (offered by Codio)",
+    year: "2025",
+    description:
+      "This course covers essential algorithms in Java, focusing on their design, implementation, and analysis. Learners practice problem-solving, computational thinking, and coding techniques to strengthen algorithmic and programming skills.",
+    skills: [
+      "Java Programming",
+      "Algorithms",
+      "Problem Solving",
+      "Computational Thinking",
+      "Software Development",
+    ],
+    imageSrc:
+      "https://res.cloudinary.com/dtf5nwiic/image/upload/v1755452108/java_srzpyr.png",
+    certificateUrl: "https://coursera.org/verify/YMJ8UOKTY6KF",
+  },
   {
     name: "How to Write a Research Paper",
     platform: "Coursera (offered by Higher Education Commission, Pakistan)",
@@ -251,4 +386,481 @@ export const coursesData = [
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1753086507/fullstack_rbid8z.png",
     certificateUrl: "https://coursera.org/verify/PYV7DWDAJYDQ",
   },
+  {
+    name: "Classification – Fundamentals & Practical Applications",
+    platform: "Coursera (Corporate Finance Institute)",
+    year: "2025",
+    description:
+      "Comprehensive introduction to classification techniques used in machine learning and data analytics, including hands-on practical applications.",
+    skills: ["Classification", "Data Science", "Machine Learning", "Analytics"],
+    imageSrc: "https://your-link/classification.png",
+    certificateUrl: "https://coursera.org/verify/189L3XUSISS0",
+  },
+  {
+    name: "How to Write and Publish a Scientific Paper",
+    platform: "Coursera (École Polytechnique)",
+    year: "2025",
+    description:
+      "Project-centered course guiding researchers through writing, structuring, and publishing scientific papers effectively.",
+    skills: ["Scientific Writing", "Research", "Publishing", "Academic Skills"],
+    imageSrc: "https://your-link/scientific_paper.png",
+    certificateUrl: "https://coursera.org/verify/739I0C54EAHO",
+  },
+  {
+    name: "Generative AI: Language Modeling with Transformers",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Hands-on course covering generative AI concepts, transformer architectures, and building language models.",
+    skills: ["Transformers", "Generative AI", "NLP", "Deep Learning"],
+    imageSrc: "https://your-link/genai_transformers.png",
+    certificateUrl: "https://coursera.org/verify/0SLGTHQRUOCP",
+  },
+  {
+    name: "Neural Networks and Deep Learning",
+    platform: "Coursera (DeepLearning.AI)",
+    year: "2025",
+    description:
+      "Foundational deep learning course by Andrew Ng, covering neural network basics, forward/backward propagation, and deep learning principles.",
+    skills: ["Neural Networks", "Deep Learning", "Backpropagation", "AI"],
+    imageSrc: "https://your-link/neural_networks.png",
+    certificateUrl: "https://coursera.org/verify/1AGW00HOE72P",
+  },
+  {
+    name: "Introduction to Object-Oriented Programming in C++",
+    platform: "Coursera (University of London)",
+    year: "2025",
+    description:
+      "Beginner-friendly introduction to object-oriented programming concepts using C++.",
+    skills: ["C++", "OOP", "Programming Fundamentals"],
+    imageSrc: "https://your-link/cpp_oop.png",
+    certificateUrl: "https://coursera.org/verify/1DUED2Y3D6XW",
+  },
+  {
+    name: "Improving Deep Neural Networks",
+    platform: "Coursera (DeepLearning.AI)",
+    year: "2025",
+    description:
+      "Advanced course covering hyperparameter tuning, regularization methods, batch normalization, and optimization algorithms.",
+    skills: [
+      "Hyperparameter Tuning",
+      "Optimization",
+      "Regularization",
+      "Deep Learning",
+    ],
+    imageSrc: "https://your-link/improving_dnn.png",
+    certificateUrl: "https://coursera.org/verify/2P5XLPZ8SV6L",
+  },
+  {
+    name: "Build Intelligent Agents Using DeepSeek & N8N",
+    platform: "Coursera (Board Infinity)",
+    year: "2025",
+    description:
+      "Practical course to build AI agents using DeepSeek models and N8N workflow automations.",
+    skills: ["AI Agents", "DeepSeek", "N8N", "Automation", "LLMs"],
+    imageSrc: "https://your-link/agents.png",
+    certificateUrl: "https://coursera.org/verify/6CY5CO9FCJCQ",
+  },
+  {
+    name: "Generative AI Engineering and Fine-Tuning Transformers",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Advanced generative AI course focusing on fine-tuning transformer models for custom tasks.",
+    skills: ["Fine-Tuning", "Transformers", "Generative AI", "LLMs"],
+    imageSrc: "https://your-link/genai_finetune.png",
+    certificateUrl: "https://coursera.org/verify/08GIK0K90J63",
+  },
+  {
+    name: "Qualitative Research Methods",
+    platform: "Coursera (University of Amsterdam)",
+    year: "2025",
+    description:
+      "Training in qualitative research design, interviewing, coding, and thematic analysis.",
+    skills: ["Qualitative Research", "Data Analysis", "Social Research"],
+    imageSrc: "https://your-link/qual_research.png",
+    certificateUrl: "https://coursera.org/verify/8FK0FFQSUIT0",
+  },
+  {
+    name: "Practical Data Science for Data Analysts (Specialization)",
+    platform: "Coursera (Corporate Finance Institute)",
+    year: "2025",
+    description:
+      "Five-course specialization covering Python fundamentals, data prep, regression, classification, and ML for financial analysis.",
+    skills: [
+      "Python",
+      "Data Preparation",
+      "Regression",
+      "Classification",
+      "Machine Learning",
+      "Predictive Analytics",
+    ],
+    imageSrc: "https://your-link/data_science_specialization.png",
+    certificateUrl: "https://coursera.org/verify/specialization/9QTIANSFDPUB",
+  },
+  {
+    name: "Java: Linear Data Structures and Trees",
+    platform: "Coursera (Codio)",
+    year: "2025",
+    description:
+      "Covers foundational and intermediate Java data structures including linked lists, stacks, queues, and tree-based structures.",
+    skills: ["Java", "Data Structures", "Trees", "Algorithms"],
+    imageSrc: "https://your-link/java_structures.png",
+    certificateUrl: "https://coursera.org/verify/CV3IJJAR1QM4",
+  },
+  {
+    name: "C++: Algorithms",
+    platform: "Coursera (Codio)",
+    year: "2025",
+    description:
+      "Learn essential C++ algorithms including searching, sorting, recursion, and problem-solving techniques.",
+    skills: ["C++", "Algorithms", "Problem Solving"],
+    imageSrc: "https://your-link/cpp_algorithms.png",
+    certificateUrl: "https://coursera.org/verify/D2DGH7WAFKW2",
+  },
+  {
+    name: "Data Science & Machine Learning Fundamentals",
+    platform: "Coursera (Corporate Finance Institute)",
+    year: "2025",
+    description:
+      "Introduction to key data science and machine learning concepts with hands-on exercises in Python.",
+    skills: ["Data Science", "Machine Learning", "Python"],
+    imageSrc: "https://your-link/dsml_fundamentals.png",
+    certificateUrl: "https://coursera.org/verify/E4WEPWJYM3UZ",
+  },
+  {
+    name: "Fundamentals of AI Agents Using RAG and LangChain",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Learn fundamentals of Retrieval-Augmented Generation (RAG), AI agents, and LangChain pipeline development.",
+    skills: ["RAG", "LangChain", "AI Agents", "LLMs"],
+    imageSrc: "https://your-link/rag_langchain.png",
+    certificateUrl: "https://coursera.org/verify/E7D611OL49LP",
+  },
+  {
+    name: "HTML, CSS, and JavaScript for Web Developers",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "Foundational web development course covering responsive UI design and interactive JavaScript-based logic.",
+    skills: ["HTML", "CSS", "JavaScript", "Frontend Development"],
+    imageSrc: "https://your-link/html_css_js.png",
+    certificateUrl: "https://coursera.org/verify/802VEG3MUNG2",
+  },
+  {
+    name: "Building AI Agents with DeepSeek using Make.com",
+    platform: "Coursera (Board Infinity)",
+    year: "2025",
+    description:
+      "Practical course to build fully automated AI agents using DeepSeek models and Make.com workflows.",
+    skills: ["AI Agents", "Automation", "DeepSeek", "Make.com"],
+    imageSrc: "https://your-link/deepseek_make.png",
+    certificateUrl: "https://coursera.org/verify/A4JMA4YBN3BT",
+  },
+  {
+    name: "Python for Data Science, AI & Development",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Covers Python programming essentials for data science, AI, and software development workflows.",
+    skills: ["Python", "Data Science", "AI", "Development"],
+    imageSrc: "https://your-link/python_ds.png",
+    certificateUrl: "https://coursera.org/verify/AFY2O9KAPIBD",
+  },
+  {
+    name: "Advanced JavaScript 1: Objects, Loops, Hoisting",
+    platform: "Coursera (Scrimba)",
+    year: "2025",
+    description:
+      "Modern JavaScript deep dive covering objects, loops, scoping, execution context, and hoisting mechanics.",
+    skills: ["JavaScript", "ES6+", "Programming Fundamentals"],
+    imageSrc: "https://your-link/js_advanced.png",
+    certificateUrl: "https://coursera.org/verify/ASAHSJ6H3T13",
+  },
+  {
+    name: "Statistical Inference",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "Covers core statistical concepts including hypothesis testing, confidence intervals, variability, and inference.",
+    skills: ["Statistics", "Statistical Inference", "Data Analysis"],
+    imageSrc: "https://your-link/stat_inference.png",
+    certificateUrl: "https://coursera.org/verify/CFC2UA9ODHOR",
+  },
+  {
+    name: "MongoDB: The Complete Guide to NoSQL Database Development",
+    platform: "Coursera (EDUCBA)",
+    year: "2025",
+    description:
+      "Complete guide to designing and developing NoSQL applications using MongoDB and document-based schemas.",
+    skills: ["MongoDB", "NoSQL", "Database Design"],
+    imageSrc: "https://your-link/mongodb_guide.png",
+    certificateUrl: "https://coursera.org/verify/CG0AF94G8XVP",
+  },
+  {
+    name: "Regression Models",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "In-depth statistical regression course covering linear models, residual analysis, multivariate regression, and practical applications.",
+    skills: ["Regression", "Statistics", "Data Analysis", "R"],
+    imageSrc: "https://your-link/regression_models.png",
+    certificateUrl: "https://coursera.org/verify/LDLJBDKSLXN7",
+  },
+  {
+    name: "Getting and Cleaning Data",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "Covers data collection, cleaning, transformation, and preparation techniques using reproducible workflows.",
+    skills: ["Data Cleaning", "Data Wrangling", "R", "Reproducible Research"],
+    imageSrc: "https://your-link/getting_cleaning_data.png",
+    certificateUrl: "https://coursera.org/verify/F3VRXKC8QHBK",
+  },
+  {
+    name: "Mathematical Biostatistics Boot Camp 1",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "Foundational probability theory and biostatistics covering distributions, limits, expectation, and random variables.",
+    skills: ["Biostatistics", "Probability", "Statistics", "Mathematics"],
+    imageSrc: "https://your-link/biostatistics_bootcamp.png",
+    certificateUrl: "https://coursera.org/verify/FPALD0SNBXHZ",
+  },
+  {
+    name: "Introduction to Information Technology and AWS Cloud",
+    platform: "Coursera (Amazon Web Services)",
+    year: "2025",
+    description:
+      "Introduction to cloud computing fundamentals, AWS services, infrastructure concepts, and IT foundations.",
+    skills: ["AWS", "Cloud Computing", "IT Fundamentals"],
+    imageSrc: "https://your-link/aws_intro.png",
+    certificateUrl: "https://coursera.org/verify/FRDOMJU2FUHU",
+  },
+  {
+    name: "Building Applications with DeepSeek",
+    platform: "Coursera (Board Infinity)",
+    year: "2025",
+    description:
+      "Learn how to build intelligent AI applications using DeepSeek models and modern agentic development practices.",
+    skills: ["DeepSeek", "AI Applications", "LLMs", "Automation"],
+    imageSrc: "https://your-link/deepseek_apps.png",
+    certificateUrl: "https://coursera.org/verify/G8BMU9D32Z2L",
+  },
+  {
+    name: "IBM RAG and Agentic AI (Professional Certificate)",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Professional certificate covering RAG systems, vector databases, multimodal AI, LangChain, LangGraph, and multi-agent systems.",
+    skills: [
+      "RAG",
+      "AI Agents",
+      "LangChain",
+      "Vector Databases",
+      "CrewAI",
+      "LangGraph",
+      "Generative AI",
+    ],
+    imageSrc: "https://your-link/ibm_agentic_ai.png",
+    certificateUrl:
+      "https://coursera.org/verify/professional-cert/HVM5VTYL1GZ6",
+  },
+  {
+    name: "JavaScript Programming Essentials",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Beginner-to-intermediate JavaScript course covering programming fundamentals and modern JS workflows.",
+    skills: ["JavaScript", "Programming Basics", "Frontend"],
+    imageSrc: "https://your-link/js_essentials.png",
+    certificateUrl: "https://coursera.org/verify/IVCHLHNKS4OB",
+  },
+  {
+    name: "Regression Analysis – Fundamentals & Practical Applications",
+    platform: "Coursera (Corporate Finance Institute)",
+    year: "2025",
+    description:
+      "Foundational and practical regression analysis training used in data analytics and financial modeling.",
+    skills: ["Regression", "Analytics", "Data Science"],
+    imageSrc: "https://your-link/regression_analysis.png",
+    certificateUrl: "https://coursera.org/verify/J6Q0IHLJ4HVM",
+  },
+  {
+    name: "Introduction to Cloud Computing",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Introduction to cloud concepts, virtualization, SaaS/IaaS/PaaS models, and modern cloud ecosystems.",
+    skills: ["Cloud Computing", "IBM Cloud", "IT Concepts"],
+    imageSrc: "https://your-link/cloud_intro.png",
+    certificateUrl: "https://coursera.org/verify/K2YG300GE7XU",
+  },
+  {
+    name: "Programming with JavaScript",
+    platform: "Coursera (Meta)",
+    year: "2025",
+    description:
+      "Practical JavaScript course from Meta covering coding logic, DOM manipulation, and functional concepts.",
+    skills: ["JavaScript", "Frontend Development", "Programming"],
+    imageSrc: "https://your-link/meta_js.png",
+    certificateUrl: "https://coursera.org/verify/L4FT4X2P3WOJ",
+  },
+  {
+    name: "The Data Scientist’s Toolbox",
+    platform: "Coursera (Johns Hopkins University)",
+    year: "2025",
+    description:
+      "Introduction to essential data science tools, version control, R programming environment, and reproducible research workflows.",
+    skills: [
+      "Data Science",
+      "R",
+      "Version Control",
+      "Git",
+      "Reproducible Research",
+    ],
+    imageSrc: "https://your-link/data_scientist_toolbox.png",
+    certificateUrl: "https://coursera.org/verify/U1U92AWKBUYH",
+  },
+  {
+    name: "Generative AI Engineering with LLMs (Specialization)",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Seven-course specialization covering LLM architecture, transformers, fine-tuning, RAG, LangChain, BERT/GPT, and NLP engineering workflows.",
+    skills: [
+      "LLMs",
+      "Transformers",
+      "RAG",
+      "NLP",
+      "Prompt Engineering",
+      "PyTorch",
+      "Hugging Face",
+    ],
+    imageSrc: "https://your-link/genai_llm_specialization.png",
+    certificateUrl: "https://coursera.org/verify/specialization/M76Q8NJE4H3G",
+  },
+  {
+    name: "Regression Analysis: Simplify Complex Data Relationships",
+    platform: "Coursera (Google)",
+    year: "2025",
+    description:
+      "Google Career Certificate covering regression concepts, prediction models, and real-world analytics applications.",
+    skills: [
+      "Regression",
+      "Analytics",
+      "Data Interpretation",
+      "Predictive Modeling",
+    ],
+    imageSrc: "https://your-link/google_regression.png",
+    certificateUrl: "https://coursera.org/verify/NHML65KA8RDO",
+  },
+  {
+    name: "Natural Language Processing with Classification and Vector Spaces",
+    platform: "Coursera (DeepLearning.AI)",
+    year: "2025",
+    description:
+      "Hands-on NLP course covering text preprocessing, embeddings, classification models, and vector-space representations.",
+    skills: ["NLP", "Vector Spaces", "Classification", "Word Embeddings"],
+    imageSrc: "https://your-link/nlp_vector_spaces.png",
+    certificateUrl: "https://coursera.org/verify/NW5KZIQZ4407",
+  },
+  {
+    name: "JavaScript Deep Dive",
+    platform: "Coursera (Scrimba)",
+    year: "2025",
+    description:
+      "Deep exploration of advanced JavaScript concepts, including callbacks, closures, asynchronous programming, and execution flow.",
+    skills: ["JavaScript", "ES6+", "Async Programming", "Closures"],
+    imageSrc: "https://your-link/js_deep_dive.png",
+    certificateUrl: "https://coursera.org/verify/O8HTYU52J59V",
+  },
+  {
+    name: "Generative AI Advanced Fine-Tuning for LLMs",
+    platform: "Coursera (IBM)",
+    year: "2025",
+    description:
+      "Advanced course on fine-tuning large language models for domain-specific tasks using modern generative AI techniques.",
+    skills: ["LLM Fine-Tuning", "PyTorch", "Transformers", "Generative AI"],
+    imageSrc: "https://your-link/genai_adv_finetune.png",
+    certificateUrl: "https://coursera.org/verify/OE6DO572F9SA",
+  },
+  {
+    name: "MLOps Platforms: Amazon SageMaker and Azure ML",
+    platform: "Coursera (Duke University)",
+    year: "2025",
+    description:
+      "Learn practical MLOps using Amazon SageMaker and Azure ML, covering model deployment, monitoring, CI/CD, and automation.",
+    skills: [
+      "MLOps",
+      "SageMaker",
+      "Azure ML",
+      "Model Deployment",
+      "Automation",
+    ],
+    imageSrc: "https://your-link/mlops_sagemaker_azure.png",
+    certificateUrl: "https://coursera.org/verify/P1FF5HEYEWA1",
+  },
+  {
+    name: "Python Fundamentals",
+    platform: "Coursera (Corporate Finance Institute)",
+    year: "2025",
+    description:
+      "Beginner-friendly introduction to Python programming covering syntax, logic, functions, and data structures.",
+    skills: ["Python", "Programming Basics", "Scripting"],
+    imageSrc: "https://your-link/python_fundamentals.png",
+    certificateUrl: "https://coursera.org/verify/Q2S8JB7W4WJW",
+  },
+  {
+    name: "Software Development Processes and Methodologies",
+    platform: "Coursera (University of Minnesota)",
+    year: "2025",
+    description:
+      "Overview of Agile, Scrum, Waterfall, Lean, and modern SDLC methodologies used in software project management.",
+    skills: ["Agile", "Scrum", "SDLC", "Software Engineering"],
+    imageSrc: "https://your-link/software_processes.png",
+    certificateUrl: "https://coursera.org/verify/Q465IOT2LV9A",
+  },
+  {
+    name: "Programming with C++",
+    platform: "Coursera (Simplilearn)",
+    year: "2025",
+    description:
+      "Introduction to C++ programming covering variables, control flow, OOP fundamentals, and program structure.",
+    skills: ["C++", "OOP", "Programming Fundamentals"],
+    imageSrc: "https://your-link/cpp_programming.png",
+    certificateUrl: "https://coursera.org/verify/RY9ED8ONCLHU",
+  },
+  {
+    name: "MLOps – Machine Learning Operations (Specialization)",
+    platform: "Coursera (Duke University)",
+    year: "2025",
+    description:
+      "Four-course specialization covering Python for MLOps, DevOps/DataOps workflows, MLflow, Hugging Face, and deploying large-scale ML models using AWS SageMaker and Azure ML.",
+    skills: [
+      "MLOps",
+      "AWS SageMaker",
+      "Azure ML",
+      "MLflow",
+      "Hugging Face",
+      "DevOps",
+      "DataOps",
+      "Model Deployment",
+      "Python",
+    ],
+    imageSrc: "https://your-link/mlops_specialization.png",
+    certificateUrl: "https://coursera.org/verify/specialization/WJT2TZ8999PW",
+  },
+  {
+    name: "DevOps, DataOps, MLOps",
+    platform: "Coursera (Duke University)",
+    year: "2025",
+    description:
+      "Course introducing DevOps, DataOps, and MLOps concepts, focusing on automation, CI/CD, data pipelines, and modern ML deployment workflows.",
+    skills: ["DevOps", "DataOps", "MLOps", "CI/CD", "Automation"],
+    imageSrc: "https://your-link/devops_dataops_mlops.png",
+    certificateUrl: "https://coursera.org/verify/X4N3B7WUYKBZ",
+  },
 ];
+
