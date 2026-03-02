@@ -7,24 +7,32 @@ import {
   FaCode,
   FaMobile,
   FaRobot,
-  FaServer,
+  FaServer, FaFire, FaProjectDiagram, FaEye, FaBrain, FaChartLine, FaCogs, FaMicrochip, FaJs, FaChartBar, FaAws, FaPen,
+  FaSearch, FaCheckCircle, FaFlask,
 } from "react-icons/fa";
 import {
   SiTypescript,
-  SiNextdotjs,
   SiTailwindcss,
-  SiExpo,
   SiDocker,
-  SiGithubactions,
   SiSupabase,
   SiVercel,
+  SiTensorflow,
+  SiMysql,
+  SiGooglecloud,
+  SiGithubactions,
+  SiExpo,
+  SiNextdotjs,
+  SiPostgresql,
+  SiShadcnui,
   SiResend,
   SiZod,
-  SiShadcnui,
-  SiPostgresql,
 } from "react-icons/si";
 import { TbBrandRust } from "react-icons/tb";
 import { IoSparkles } from "react-icons/io5";
+
+function SiMicrosoftsqlserver() {
+  return null;
+}
 
 const Skills: React.FC = () => {
   const ref = useRef(null);
@@ -52,52 +60,81 @@ const Skills: React.FC = () => {
     },
   };
 
-const skills = {
-  frontendMastery: [
-    { name: "React", icon: <FaReact />, level: "Expert" },
-    { name: "Next.js", icon: <SiNextdotjs />, level: "Expert" },
-    { name: "TailwindCSS", icon: <SiTailwindcss />, level: "Expert" },
-    { name: "shadcn/ui", icon: <SiShadcnui />, level: "Expert" }
-  ],
-  dataStack: [
-    { name: "Supabase", icon: <SiSupabase />, level: "Expert" },
-    { name: "TypeScript", icon: <SiTypescript />, level: "Advanced" },
-    { name: "Zod", icon: <SiZod />, level: "Advanced" },
-    { name: "Zustand", icon: <TbBrandRust />, level: "Advanced" },
-    { name: "Vector Databases (Qdrant)", icon: <IoSparkles />, level: "Advanced" },
-    { name: "Semantic Search", icon: <IoSparkles />, level: "Advanced" },
-    { name: "Retrievers", icon: <IoSparkles />, level: "Advanced" },
-  ],
-  deployment: [
-    { name: "Vercel", icon: <SiVercel />, level: "Expert" },
-    { name: "Docker", icon: <SiDocker />, level: "Advanced" },
-    { name: "GitHub Actions", icon: <SiGithubactions />, level: "Advanced" },
-    { name: "PWA", icon: <FaCode />, level: "Advanced" },
-    { name: "AWS", icon: <FaCode />, level: "Proficient" },
-  ],
-  backend: [
-    { name: "Node.js", icon: <FaNode />, level: "Advanced" },
-    { name: "Express", icon: <FaServer />, level: "Advanced" },
-    { name: "PostgreSQL", icon: <SiPostgresql />, level: "Advanced" },
-    { name: "Resend", icon: <SiResend />, level: "Advanced" },
-    { name: "Python", icon: <FaCode />, level: "Expert" },
-    { name: "C++", icon: <FaCode />, level: "Advanced" },
-    { name: "JavaScript", icon: <FaCode />, level: "Expert" },
-  ],
-  other: [
-    { name: "Expo", icon: <SiExpo />, level: "Proficient" },
-    { name: "AI Tools", icon: <FaRobot />, level: "Proficient" },
-    { name: "LangChain", icon: <IoSparkles />, level: "Advanced" },
-    { name: "AI Agents", icon: <FaRobot />, level: "Advanced" },
-    { name: "Agentic AI (LangGraph)", icon: <IoSparkles />, level: "Advanced" },
-    { name: "RAG Pipelines", icon: <IoSparkles />, level: "Advanced" },
-    { name: "Multimodal AI", icon: <FaRobot />, level: "Advanced" },
-    { name: "Prompt Engineering", icon: <IoSparkles />, level: "Advanced" },
-    { name: "Research Writing", icon: <FaCode />, level: "Advanced" },
-    { name: "Academic Writing", icon: <FaCode />, level: "Advanced" },
-  ],
-};
+  const skills = {
+    aiEngineering: [
+      { name: "Python", icon: <FaCode />, level: "Expert" },
+      { name: "PyTorch", icon: <FaFire />, level: "Advanced" },
+      { name: "TensorFlow", icon: <SiTensorflow />, level: "Advanced" },
+      { name: "Federated Learning (Flower)", icon: <FaProjectDiagram />, level: "Advanced" },
+      { name: "Computer Vision", icon: <FaEye />, level: "Advanced" },
+      { name: "Deep Learning", icon: <FaBrain />, level: "Expert" },
+      { name: "Model Optimization", icon: <FaChartLine />, level: "Advanced" },
+    ],
 
+    llmStack: [
+      { name: "LLMs (GPT, Open Models)", icon: <FaRobot />, level: "Advanced" },
+      { name: "LangChain", icon: <IoSparkles />, level: "Advanced" },
+      { name: "RAG Pipelines", icon: <IoSparkles />, level: "Advanced" },
+      { name: "Vector Databases (Qdrant)", icon: <IoSparkles />, level: "Advanced" },
+      { name: "Semantic Search", icon: <IoSparkles />, level: "Advanced" },
+      { name: "Retrievers", icon: <IoSparkles />, level: "Advanced" },
+      { name: "Prompt Engineering", icon: <IoSparkles />, level: "Advanced" },
+      { name: "AI Agents", icon: <FaRobot />, level: "Advanced" },
+      { name: "Agentic AI (LangGraph)", icon: <IoSparkles />, level: "Advanced" },
+      { name: "Multimodal AI (CLIP)", icon: <FaRobot />, level: "Advanced" },
+    ],
+
+    backendSystems: [
+      { name: "Flask", icon: <FaServer />, level: "Advanced" },
+      { name: "FastAPI", icon: <FaServer />, level: "Advanced" },
+      { name: "Node.js", icon: <FaNode />, level: "Advanced" },
+      { name: "Express", icon: <FaServer />, level: "Advanced" },
+      { name: "REST API Design", icon: <FaCode />, level: "Advanced" },
+      { name: "System Integration", icon: <FaCogs />, level: "Advanced" },
+      { name: "Multi-threading", icon: <FaMicrochip />, level: "Advanced" },
+      { name: "C++", icon: <FaCode />, level: "Advanced" },
+      { name: "Resend", icon: <SiResend />, level: "Advanced" },
+    ],
+
+    frontend: [
+      { name: "React", icon: <FaReact />, level: "Expert" },
+      { name: "Next.js", icon: <SiNextdotjs />, level: "Expert" },
+      { name: "JavaScript", icon: <FaJs />, level: "Expert" },
+      { name: "TypeScript", icon: <SiTypescript />, level: "Advanced" },
+      { name: "TailwindCSS", icon: <SiTailwindcss />, level: "Expert" },
+      { name: "shadcn/ui", icon: <SiShadcnui />, level: "Expert" },
+      { name: "Data Visualization", icon: <FaChartBar />, level: "Advanced" },
+      { name: "Zod", icon: <SiZod />, level: "Advanced" },
+      { name: "Zustand", icon: <TbBrandRust />, level: "Advanced" },
+    ],
+
+    databasesCloud: [
+      { name: "MySQL", icon: <SiMysql />, level: "Advanced" },
+      { name: "MS SQL Server", icon: <SiMicrosoftsqlserver />, level: "Advanced" },
+      { name: "PostgreSQL", icon: <SiPostgresql />, level: "Advanced" },
+      { name: "Supabase", icon: <SiSupabase />, level: "Expert" },
+      { name: "AWS", icon: <FaAws />, level: "Proficient" },
+      { name: "Google Cloud", icon: <SiGooglecloud />, level: "Proficient" },
+      { name: "Docker", icon: <SiDocker />, level: "Advanced" },
+      { name: "Vercel", icon: <SiVercel />, level: "Expert" },
+      { name: "GitHub Actions", icon: <SiGithubactions />, level: "Advanced" },
+      { name: "PWA", icon: <FaCode />, level: "Advanced" },
+    ],
+
+    research: [
+      { name: "Federated Learning Research", icon: <FaProjectDiagram />, level: "Expert" },
+      { name: "Academic Writing", icon: <FaPen />, level: "Advanced" },
+      { name: "Research Writing", icon: <FaCode />, level: "Advanced" },
+      { name: "Research Methodology", icon: <FaSearch />, level: "Advanced" },
+      { name: "Model Evaluation", icon: <FaCheckCircle />, level: "Advanced" },
+      { name: "Experiment Design", icon: <FaFlask />, level: "Advanced" },
+    ],
+
+    mobile: [
+      { name: "Expo", icon: <SiExpo />, level: "Proficient" },
+      { name: "AI Tools", icon: <FaRobot />, level: "Proficient" },
+    ],
+  };
 
   const getLevelClass = (level: string) => {
     switch (level) {
@@ -126,6 +163,30 @@ const skills = {
     );
   };
 
+  const SkillCard = ({
+    skill,
+    hoverRotate,
+  }: {
+    skill: { name: string; icon: React.ReactNode; level: string };
+    hoverRotate: number;
+  }) => (
+    <motion.div
+      whileHover={{ rotate: hoverRotate, scale: 1.05, y: -5 }}
+      className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
+    >
+      <div className="h-2 w-full bg-black"></div>
+      <div className="p-4">
+        <div className="flex justify-between items-center mb-4">
+          <div className="text-4xl">{skill.icon}</div>
+          <span className={`text-sm font-black px-3 py-1 ${getLevelClass(skill.level)} uppercase`}>
+            {skill.level}
+          </span>
+        </div>
+        <h4 className="text-xl font-black">{skill.name}</h4>
+      </div>
+    </motion.div>
+  );
+
   return (
     <motion.div
       ref={ref}
@@ -149,89 +210,84 @@ const skills = {
 
       {/* Skills Layout */}
       <div className="grid gap-20">
-        {/* Frontend Mastery */}
+
+        {/* AI Engineering */}
         <motion.div
           variants={itemVariants}
           className="transform rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
         >
           {getDotPattern()}
           <div className="flex items-center gap-4 mb-10 -rotate-1">
+            <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
+              <FaBrain />
+            </div>
+            <h3 className="text-3xl md:text-4xl font-black">AI ENGINEERING</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {skills.aiEngineering.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={-2} />
+            ))}
+          </div>
+        </motion.div>
+
+        {/* LLM Stack */}
+        <motion.div
+          variants={itemVariants}
+          className="transform -rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
+        >
+          {getDotPattern()}
+          <div className="flex items-center gap-4 mb-10 rotate-1">
+            <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
+              <FaRobot />
+            </div>
+            <h3 className="text-3xl md:text-4xl font-black">LLM STACK</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {skills.llmStack.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={2} />
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Backend Systems */}
+        <motion.div
+          variants={itemVariants}
+          className="transform rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
+        >
+          {getDotPattern()}
+          <div className="flex items-center gap-4 mb-10 -rotate-1">
+            <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
+              <FaServer />
+            </div>
+            <h3 className="text-3xl md:text-4xl font-black">BACKEND SYSTEMS</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {skills.backendSystems.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={-2} />
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Frontend */}
+        <motion.div
+          variants={itemVariants}
+          className="transform -rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
+        >
+          {getDotPattern()}
+          <div className="flex items-center gap-4 mb-10 rotate-1">
             <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
               <FaReact />
             </div>
-            <h3 className="text-3xl md:text-4xl font-black">
-              FRONTEND MASTERY
-            </h3>
+            <h3 className="text-3xl md:text-4xl font-black">FRONTEND MASTERY</h3>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.frontendMastery.map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ rotate: -2, scale: 1.05, y: -5 }}
-                className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <div className="h-2 w-full bg-black"></div>
-                <div className="p-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="text-4xl">{skill.icon}</div>
-                    <span
-                      className={`text-sm font-black px-3 py-1 ${getLevelClass(
-                        skill.level
-                      )} uppercase`}
-                    >
-                      {skill.level}
-                    </span>
-                  </div>
-                  <h4 className="text-xl font-black">{skill.name}</h4>
-                </div>
-              </motion.div>
+            {skills.frontend.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={2} />
             ))}
           </div>
         </motion.div>
 
-        {/* Data & State Management */}
-        <motion.div
-          variants={itemVariants}
-          className="transform -rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
-        >
-          {getDotPattern()}
-          <div className="flex items-center gap-4 mb-10 rotate-1">
-            <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
-              <SiSupabase />
-            </div>
-            <h3 className="text-3xl md:text-4xl font-black">
-              DATA & STATE MANAGEMENT
-            </h3>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.dataStack.map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ rotate: 2, scale: 1.05, y: -5 }}
-                className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <div className="h-2 w-full bg-black"></div>
-                <div className="p-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="text-4xl">{skill.icon}</div>
-                    <span
-                      className={`text-sm font-black px-3 py-1 ${getLevelClass(
-                        skill.level
-                      )} uppercase`}
-                    >
-                      {skill.level}
-                    </span>
-                  </div>
-                  <h4 className="text-xl font-black">{skill.name}</h4>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Deployment & DevOps */}
+        {/* Databases & Cloud */}
         <motion.div
           variants={itemVariants}
           className="transform rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
@@ -239,40 +295,18 @@ const skills = {
           {getDotPattern()}
           <div className="flex items-center gap-4 mb-10 -rotate-1">
             <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
-              <SiVercel />
+              <FaDatabase />
             </div>
-            <h3 className="text-3xl md:text-4xl font-black">
-              DEPLOYMENT & DEVOPS
-            </h3>
+            <h3 className="text-3xl md:text-4xl font-black">DATABASES & CLOUD</h3>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.deployment.map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ rotate: -2, scale: 1.05, y: -5 }}
-                className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <div className="h-2 w-full bg-black"></div>
-                <div className="p-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="text-4xl">{skill.icon}</div>
-                    <span
-                      className={`text-sm font-black px-3 py-1 ${getLevelClass(
-                        skill.level
-                      )} uppercase`}
-                    >
-                      {skill.level}
-                    </span>
-                  </div>
-                  <h4 className="text-xl font-black">{skill.name}</h4>
-                </div>
-              </motion.div>
+            {skills.databasesCloud.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={-2} />
             ))}
           </div>
         </motion.div>
 
-        {/* Backend & APIs */}
+        {/* Research */}
         <motion.div
           variants={itemVariants}
           className="transform -rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
@@ -280,38 +314,18 @@ const skills = {
           {getDotPattern()}
           <div className="flex items-center gap-4 mb-10 rotate-1">
             <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
-              <FaDatabase />
+              <FaSearch />
             </div>
-            <h3 className="text-3xl md:text-4xl font-black">BACKEND & APIs</h3>
+            <h3 className="text-3xl md:text-4xl font-black">RESEARCH</h3>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.backend.map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ rotate: 2, scale: 1.05, y: -5 }}
-                className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <div className="h-2 w-full bg-black"></div>
-                <div className="p-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="text-4xl">{skill.icon}</div>
-                    <span
-                      className={`text-sm font-black px-3 py-1 ${getLevelClass(
-                        skill.level
-                      )} uppercase`}
-                    >
-                      {skill.level}
-                    </span>
-                  </div>
-                  <h4 className="text-xl font-black">{skill.name}</h4>
-                </div>
-              </motion.div>
+            {skills.research.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={2} />
             ))}
           </div>
         </motion.div>
 
-        {/* Expanding Horizons */}
+        {/* Mobile & Tools */}
         <motion.div
           variants={itemVariants}
           className="transform rotate-1 bg-white p-8 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] relative"
@@ -321,38 +335,16 @@ const skills = {
             <div className="w-16 h-16 bg-black flex items-center justify-center text-yellow-300 text-4xl shadow-lg">
               <FaMobile />
             </div>
-            <h3 className="text-3xl md:text-4xl font-black">
-              EXPANDING HORIZONS
-            </h3>
+            <h3 className="text-3xl md:text-4xl font-black">MOBILE & TOOLS</h3>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.other.map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ rotate: -2, scale: 1.05, y: -5 }}
-                className="bg-white border-4 border-black overflow-hidden shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <div className="h-2 w-full bg-black"></div>
-                <div className="p-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="text-4xl">{skill.icon}</div>
-                    <span
-                      className={`text-sm font-black px-3 py-1 ${getLevelClass(
-                        skill.level
-                      )} uppercase`}
-                    >
-                      {skill.level}
-                    </span>
-                  </div>
-                  <h4 className="text-xl font-black">{skill.name}</h4>
-                </div>
-              </motion.div>
+            {skills.mobile.map((skill, index) => (
+              <SkillCard key={index} skill={skill} hoverRotate={-2} />
             ))}
           </div>
         </motion.div>
 
-        {/* Also Familiar With */}
+        {/* Also In My Toolbox */}
         <motion.div variants={itemVariants}>
           <div className="transform -rotate-1 bg-black text-yellow-300 p-8 mb-10 inline-flex items-center gap-4 shadow-[8px_8px_0px_0px_rgba(255,255,255,1)]">
             <div className="text-4xl">
@@ -377,6 +369,10 @@ const skills = {
                 "Drizzle ORM",
                 "ValKey",
                 "Cursor IDE",
+                "PWA",
+                "Resend",
+                "Zustand",
+                "Zod",
               ].map((skill, index) => (
                 <motion.div
                   key={index}
@@ -397,6 +393,7 @@ const skills = {
             </div>
           </div>
         </motion.div>
+
       </div>
     </motion.div>
   );
