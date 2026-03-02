@@ -9,7 +9,6 @@ const projects = [
     url: "https://fyp.abdulsami.xyz/",
     repo: null,
   },
-
   {
     id: 2,
     image:
@@ -18,7 +17,7 @@ const projects = [
     description:
       "Personal portfolio website built using HTML, Tailwind CSS, and JavaScript.",
     url: "https://abdulsamiportfolio.vercel.app/",
-    repo: null, // Optional: add if hosted on GitHub
+    repo: null,
   },
   {
     id: 3,
@@ -31,17 +30,17 @@ const projects = [
     repo: null,
   },
   {
-    id: 3,
+    id: 4,
     image:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752761248/internship-03_zj72pk.png",
     title: "Cosmetics E-Commerce Site",
     description:
       "Full-stack cosmetics store with authentication, Redux Toolkit, and MERN stack.",
     url: "https://cosmetics-mocha.vercel.app/login",
-    repo: null, // Private or internship code
+    repo: null,
   },
   {
-    id: 4,
+    id: 5,
     image:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752761246/documentgpt_tewfql.png",
     title: "DocumentGPT",
@@ -51,15 +50,52 @@ const projects = [
     repo: null,
   },
   {
-    id: 5,
+    id: 6,
     image: "/assets/projects/paklaw-gpt.png",
     title: "Pak-Law GPT",
-    description: "Legal assistant chatbot using LLMs and custom RAG pipeline.",
-    url: "#", // Add Streamlit/public link if available
+    description:
+      "Bilingual legal assistant trained on GPT-4 using LangChain and Qdrant for context-aware legal reasoning.",
+    url: "#",
     repo: null,
   },
   {
-    id: 6,
+    id: 7,
+    image: "/assets/projects/sarcasm-detection.png",
+    title: "Sarcasm Detection Model",
+    description:
+      "Trained and evaluated Attention-enhanced BiLSTM, GRU, and LSTM architectures for sarcasm detection. Results published in IEEE Access (2024).",
+    url: "#",
+    repo: null,
+  },
+  {
+    id: 8,
+    image: "/assets/projects/medical-segmentation.png",
+    title: "3D Medical Image Segmentation",
+    description:
+      "Deep learning models for automatic head and neck cancer segmentation using 3D CT-PET data with CNN-based architectures.",
+    url: "#",
+    repo: null,
+  },
+  {
+    id: 9,
+    image: "/assets/projects/ai-diagnosis-dashboard.png",
+    title: "Local AI Diagnosis Dashboard",
+    description:
+      "Lightweight web dashboard using HTML, CSS, and JavaScript allowing doctors to upload images and get model predictions locally via a saved PyTorch model.",
+    url: "#",
+    repo: null,
+  },
+  {
+    id: 10,
+    image: "/assets/projects/dl-finetuning.png",
+    title: "Deep Learning Model Testing & Fine-Tuning",
+    description:
+      "Explored various architectures and fine-tuning strategies for image recognition tasks. Compared model accuracy, precision, and recall across datasets.",
+    url: "#",
+    repo: null,
+  },
+  {
+    id: 11,
     image: "/assets/projects/persona-chat.png",
     title: "Persona Chatbot",
     description:
@@ -68,7 +104,7 @@ const projects = [
     repo: null,
   },
   {
-    id: 7,
+    id: 12,
     image: "/assets/projects/proposal-review.png",
     title: "Proposal Review Bot",
     description:
@@ -77,16 +113,16 @@ const projects = [
     repo: null,
   },
   {
-    id: 8,
+    id: 13,
     image: "/assets/projects/voting-system.png",
     title: "Console Voting System",
     description:
-      "C++ terminal-based voting system project with candidate registration and results.",
+      "C++ terminal-based voting system with candidate registration and results display.",
     url: "#",
     repo: null,
   },
   {
-    id: 9,
+    id: 14,
     image:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752761246/snakegame_nlceov.png",
     title: "Snake Game",
@@ -95,7 +131,7 @@ const projects = [
     repo: null,
   },
   {
-    id: 10,
+    id: 15,
     image:
       "https://res.cloudinary.com/dtf5nwiic/image/upload/v1752761246/chatapp_bpfmwf.png",
     title: "2-Person Chat App",
@@ -107,4 +143,3 @@ const projects = [
 ];
 
 export default projects;
-
